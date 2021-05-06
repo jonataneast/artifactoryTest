@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.artifactory.mylibrary",
+    "module": "final",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "lpbloer3azclxdd3wgim3s2cu4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "final-1.0.aar",
+          "url": "final-1.0.aar",
+          "size": 32850,
+          "sha512": "5b8963f1c52be98f705380e8af4ebc2fa9cee70945a506f3ee1dbeafb8621438ff58a8bf186ce099d6957e8c756cb1f1a258d1b858061929cc14e5e51f31d7fa",
+          "sha256": "57d2966d17cf18e5a150b364fa325d1a6849ba032508f33af43e55f7b07349e5",
+          "sha1": "28fd9f50b69db5a34c807fbc8b5361bc837b92da",
+          "md5": "31e4f27400b9105e1dbc7c96c0c03cfe"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "final-1.0.aar",
+          "url": "final-1.0.aar",
+          "size": 32850,
+          "sha512": "5b8963f1c52be98f705380e8af4ebc2fa9cee70945a506f3ee1dbeafb8621438ff58a8bf186ce099d6957e8c756cb1f1a258d1b858061929cc14e5e51f31d7fa",
+          "sha256": "57d2966d17cf18e5a150b364fa325d1a6849ba032508f33af43e55f7b07349e5",
+          "sha1": "28fd9f50b69db5a34c807fbc8b5361bc837b92da",
+          "md5": "31e4f27400b9105e1dbc7c96c0c03cfe"
+        }
+      ]
+    }
+  ]
+}
