@@ -4,7 +4,6 @@
   <groupId>com.artifactory.mylibrary</groupId>
   <artifactId>final</artifactId>
   <version>1.0</version>
-  <packaging>aar</packaging>
   <dependencies>
     <dependency>
       <groupId>androidx.appcompat</groupId>
